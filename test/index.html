@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<title>王烽测试</title>
+	<link type="text/css" rel="stylesheet"  href="css/touchzt.css"  />
+	<style>
+	body {max-width:100%;}
+      .iBtn{margin:0.5rem auto;height:3rem;line-height:3rem;text-align:center;display:inline-block;background-color:red;color:#fff;width:100%;}
+      
+      .leftBtn {position:absolute;left:30px;top:5%;}
+      .leftBtn button{border:1px solid #666;padding:5px 20px;cursor:pointer;margin:10px 5px;}
+      .leftBtn button:hover{background:#d4d4d4;}
+      #testPaper {width:980px;height:520px;background-color:#d4d4d4;border:1px solid #4d4d4d; margin:20px auto; position:relative;}
+      .paperBox {width:600px;height:438px;background-color:#4d4d4d;cursor:move;position: absolute;overflow:hidden;}
+      .imgPaper {width:600px;height:438px;overflow:hidden;}
+    </style>
+<body>
+<div class="leftBtn">
+	<button>缩小</button><button>放大</button>
+	<br/>
+	<button>定位</button>
+</div>
+<div id="testPaper">
+	<div class="paperBox">
+		<div class="imgPaper" style="background:url(${staticPath}images/testPaper001.jpg) no-repeat center center"></div>
+	</div>
+</div>
+</body>
+</html>
